@@ -1,5 +1,5 @@
-/pagewidth 8.5 72 mul def                      
-/pageheight 11 72 mul def                      
+/pagewidth 8.25 72 mul def                      
+/pageheight 11.75 72 mul def                      
 /maketag                                       
 {                                              
   /img exch def                                
@@ -16,7 +16,9 @@
   closepath stroke                             
   grestore                                     
   gsave                                        
-  pagewidth 2 div 72 translate
+  pagewidth 2 div 72 translate                 
+  /Helvetica-Bold findfont 20 scalefont setfont 
+  name                                         
   dup stringwidth pop -.5 mul 0 moveto         
   show                                         
   grestore                                     
